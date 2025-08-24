@@ -1,6 +1,6 @@
 --[[
 
-		Welcome to
+		  Welcome to
 
  ▌ ▐·▪  • ▌ ▄ ·. ▄▄▄▄▄       ▄▄▄·▪   ▄▄▄· 
 ▪█·█▌██ ·██ ▐███▪•██  ▪     ▐█ ▄███ ▐█ ▀█ 
@@ -8,9 +8,9 @@
  ███ ▐█▌██ ██▌▐█▌ ▐█▌·▐█▌.▐▌▐█▪·•▐█▌▐█ ▪▐▌
 . ▀  ▀▀▀▀▀  █▪▀▀▀ ▀▀▀  ▀█▄▀▪.▀   ▀▀▀ ▀  ▀ 
 
-	  (Zach's Neovim Config)
+	             (Zach's Neovim Config)
 
---]]
+]]
 
 -- using "Neorocks" Package manager. Install automatically if not already;
 require("config.install_rocks")
@@ -21,8 +21,10 @@ require("config.mapping")
 require("lsp.lsp")
 require("plugins.which_key")
 require("plugins.alpha")
-require("plugins.base16")
-require("plugins.autopairs")
+require("plugins.mini")
+require("plugins.noice")
+require("plugins.colorizer")
 
 -- init lualine
-require('lualine').setup()
+-- require('lualine').setup()
+

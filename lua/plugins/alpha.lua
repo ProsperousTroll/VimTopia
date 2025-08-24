@@ -10,6 +10,10 @@ dashboard.section.header.val = {
    ". ▀  ▀▀▀▀▀  █▪▀▀▀ ▀▀▀  ▀█▄▀▪.▀   ▀▀▀ ▀  ▀ "
 }
 
+dashboard.section.footer.val = {
+   "A NeoVim Distro by Zach D."
+}
+
 -- Menu
 dashboard.section.buttons.val = {
     dashboard.button( "n", "  > New file" , ":ene <BAR> startinsert <CR>"),
