@@ -28,3 +28,4 @@ barbar = { git = "romgrk/barbar.nvim" }
 "yazi.nvim" = { git = "mikavilpas/yazi.nvim" }
 coq = { git = "ms-jpq/coq_nvim" }
 alpha = { git = "goolord/alpha-nvim" }
+toggleterm = { git = "akinsho/toggleterm.nvim" }

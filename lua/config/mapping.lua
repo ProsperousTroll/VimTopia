@@ -12,3 +12,9 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', { noremap = true, silent = true, desc = '
 vim.keymap.set('n', '<A-j>', ':bn<CR>', { noremap = true, silent = true, desc = 'Next buffer' })
 vim.keymap.set('n', '<A-k>', ':bp<CR>', { noremap = true, silent = true, desc = 'Previous buffer' })
 vim.keymap.set('n', '<A-q>', ':bd<CR>', { noremap = true, silent = true, desc = 'Close buffer' })
+
+require("toggleterm").setup{
+  open_mapping = [[<A-h>]],  -- your toggle keybind
+  direction = 'horizontal',      -- or 'vertical', 'float', 'tab'
+}
+
