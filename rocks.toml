@@ -1,0 +1,30 @@
+# This is your rocks.nvim plugins declaration file.
+# Here is a small yet pretty detailed example on how to use it:
+#
+# [plugins]
+# nvim-treesitter = "semver_version"  # e.g. "1.0.0"
+
+# List of non-Neovim rocks.
+# This includes things like `toml` or other lua packages.
+[rocks]
+
+# List of Neovim plugins to install alongside their versions.
+# If the plugin name contains a dot then you must add quotes to the key name!
+[plugins]
+"rocks.nvim" = "2.45.2" # rocks.nvim can also manage itself :D
+neorg = "9.3.0"
+"rocks-git.nvim" = "2.5.5"
+nvim-lspconfig = "2.4.0"
+tree-sitter-cpp = "0.0.45"
+tree-sitter-rust = "0.0.50"
+"which-key.nvim" = "3.17.0"
+nvim-web-devicons = "0.100"
+"mini.icons" = "0.16.0"
+base16-nvim = "scm"
+nvim-autopairs = "scm"
+"lualine.nvim" = "scm"
+barbar = { git = "romgrk/barbar.nvim" }
+# chadtree=  { git = "ms-jpq/chadtree" }
+"yazi.nvim" = { git = "mikavilpas/yazi.nvim" }
+coq = { git = "ms-jpq/coq_nvim" }
+alpha = { git = "goolord/alpha-nvim" }
