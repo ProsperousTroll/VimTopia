@@ -1,4 +1,7 @@
-local coq = require "coq"
+local coq = require("coq")
 
-vim.lsp.config("clang", coq.lsp_ensure_capabilities())
-vim.lsp.enable("clang")
+require('lspconfig').clangd.setup({
+   capabilities = coq.lsp_ensure_capabilities()
+})
+
+-- don't ask me why this is in a different folder. I don't know. Sorry. 

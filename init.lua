@@ -19,12 +19,10 @@ require("config.options")
 require("config.mapping")
 
 require("lsp.lsp")
-require("plugins.which_key")
-require("plugins.alpha")
 require("plugins.mini")
+require("plugins.snacks")
+require("plugins.which_key")
+-- require("plugins.alpha")
 require("plugins.noice")
 require("plugins.colorizer")
-
--- init lualine
--- require('lualine').setup()
 

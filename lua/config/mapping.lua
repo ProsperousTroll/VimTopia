@@ -1,7 +1,7 @@
 
--- yazi.nvim
-vim.keymap.set("n", "<C-n>", function()
-  require("yazi").yazi()
+-- File manager
+vim.keymap.set('n', '<C-n>', function()
+   require("snacks").explorer()
 end)
 
 vim.keymap.set('n', '<C-h>', '<C-w>h', { noremap = true, silent = true, desc = 'Focus left window' })
