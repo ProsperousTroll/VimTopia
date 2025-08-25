@@ -19,6 +19,7 @@ tree-sitter-cpp = "0.0.45"
 tree-sitter-rust = "0.0.50"
 "which-key.nvim" = "3.17.0"
 nvim-web-devicons = "0.100"
+tree-sitter = { git = "jacobdot/nvim-treesitter.nvim" }
 "snacks.nvim" = { git = "folke/snacks.nvim" }
 "nvim-colorizer.lua" = { git = "norcalli/nvim-colorizer.lua" }
 "yazi.nvim" = { git = "mikavilpas/yazi.nvim" }

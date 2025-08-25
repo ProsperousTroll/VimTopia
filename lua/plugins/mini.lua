@@ -1,7 +1,6 @@
 -- load zach themes
 require("config.zachthemes")
 
-
 require("mini.pairs").setup()
 require("mini.indentscope").setup()
 -- require("mini.animate").setup()
@@ -13,3 +12,4 @@ require("mini.base16").setup({
    palette = Eris,
    use_cterm = true,
 })
+

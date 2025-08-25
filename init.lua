@@ -18,6 +18,7 @@ require("config.rocks")
 require("config.options")
 require("config.mapping")
 
+require("plugins.neorg")
 require("lsp.lsp")
 require("plugins.mini")
 require("plugins.snacks")
@@ -25,4 +26,3 @@ require("plugins.which_key")
 require("plugins.alpha")
 require("plugins.noice")
 require("plugins.colorizer")
-
