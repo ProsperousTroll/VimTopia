@@ -1,8 +1,13 @@
 -- ZACH'S THEMES --
+function SelectTheme(theme)
+   if theme == "Eris" then
+      return Eris
+   elseif theme == "NewGruvCity" then
+      return NewGruvCity
+   end
+end
 
 -- New Gruv City, my crowing achievement. Heavily inspired by Eris, but with my own colors.
-local zachthemes = {}
-
 NewGruvCity = {
    base00 = "#2a2619",
    base01 = "#4a3f20",
@@ -41,5 +46,3 @@ Eris = {
    base0E = "#F768A3",
    base0F = "#F768A3",
 }
-
-return zachthemes

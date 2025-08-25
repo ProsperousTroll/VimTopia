@@ -22,7 +22,7 @@ require("lsp.lsp")
 require("plugins.mini")
 require("plugins.snacks")
 require("plugins.which_key")
--- require("plugins.alpha")
+require("plugins.alpha")
 require("plugins.noice")
 require("plugins.colorizer")
 

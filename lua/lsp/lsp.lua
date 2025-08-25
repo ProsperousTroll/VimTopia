@@ -1,6 +1,11 @@
 local coq = require("coq")
+local lspconfig = require('lspconfig')
 
-require('lspconfig').clangd.setup({
+lspconfig.clangd.setup({
+   capabilities = coq.lsp_ensure_capabilities()
+})
+
+lspconfig.marksman.setup({
    capabilities = coq.lsp_ensure_capabilities()
 })
 
