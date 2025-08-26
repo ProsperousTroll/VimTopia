@@ -9,7 +9,7 @@ require("mini.tabline").setup()
 require("mini.surround").setup()
 require("mini.base16").setup({
    -- OPTIONS: Eris, NewGruvCity
-   palette = Eris,
+   palette = NewGruvCity,
    use_cterm = true,
 })
 
