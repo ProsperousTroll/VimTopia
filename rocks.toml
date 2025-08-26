@@ -22,17 +22,18 @@ nvim-web-devicons = "0.100"
 tree-sitter = { git = "jacobdot/nvim-treesitter.nvim" }
 "snacks.nvim" = { git = "folke/snacks.nvim" }
 "nvim-colorizer.lua" = { git = "norcalli/nvim-colorizer.lua" }
-"yazi.nvim" = { git = "mikavilpas/yazi.nvim" }
 coq = { git = "ms-jpq/coq_nvim" }
 alpha = { git = "goolord/alpha-nvim" }
 toggleterm = { git = "akinsho/toggleterm.nvim" }
 noice = { git = "folke/noice.nvim" }
 "mini.nvim" = { git = "echasnovski/mini.nvim" }
 
-# Plugins I no longer use but keeping in here bc I'm a hoarder:
+# Plugins I no longer use but keeping in here bc I'm a hoarder 
+# Most of them are still worth checking out if you're being nosy in here anyways...
+
 # base16-nvim = "scm"
 # nvim-autopairs = "scm"
 # "lualine.nvim" = "scm"
 # barbar = { git = "romgrk/barbar.nvim" }
 # chadtree=  { git = "ms-jpq/chadtree" }
-
+# "yazi.nvim" = { git = "mikavilpas/yazi.nvim" }

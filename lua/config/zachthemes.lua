@@ -1,11 +1,4 @@
 -- ZACH'S THEMES --
-function SelectTheme(theme)
-   if theme == "Eris" then
-      return Eris
-   elseif theme == "NewGruvCity" then
-      return NewGruvCity
-   end
-end
 
 -- New Gruv City, my crowing achievement. Heavily inspired by Eris, but with my own colors.
 NewGruvCity = {
@@ -27,7 +20,7 @@ NewGruvCity = {
    base0F = "#f0e68c",
 }
 
--- Eris. The dopest base16 theme ever made by a guy named Eric.
+-- Eris. The dopest base16 theme ever made by a guy named Ed.
 Eris = {
    base00 = "#0A0920",
    base01 = "#13133A", 
