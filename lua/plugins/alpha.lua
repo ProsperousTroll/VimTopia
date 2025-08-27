@@ -50,7 +50,7 @@ dashboard.section.footer.val = "A Neovim distro by Zach D."
 dashboard.section.buttons.val = {
     dashboard.button( "n", "  > New file" , ":ene <BAR> startinsert <CR>"),
     dashboard.button( "s", "  > Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
-    dashboard.button( "q", "󰈆  >  Quit" , ":q<CR>")
+    dashboard.button( "q", "󰈆  > Quit" , ":q<CR>")
 }
 
 alpha.setup(dashboard.opts)
