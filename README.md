@@ -1,6 +1,6 @@
 # WELCOME TO...
 
-![Screenshot]{Screenshots/VimTopia1.png}
+![Screenshot](Screenshots/VimTopia1.png)
 
 ### This is my personal Neovim config, built from scratch with ![rocks.nvim](https://github.com/nvim-neorocks/rocks.nvim).
 <sub> I am constantly changing and tweaking things about this config... clone at own risk! </sub>
