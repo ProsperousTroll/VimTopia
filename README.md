@@ -58,6 +58,12 @@ The solution to this problem was quite simple, all you have to do is locate the 
 
 There are 2 base-16 themes built into VimTopia: NewGruvCity (By me), and Eris (By ![Ed](codeberg.org/ed))
 
+<sub>New Gruv City</sub>
+![Screenshots](Screenshots/VimTopia2)
+
+<sub>Eris</sub>
+![Screenshots](Screenshots/VimTopia4)
+
 You can select either by opening `lua/plugins/mini.lua` and replacing the option `palette` with whichever option you want.
 
 ## -=@ KEYBINDS @=-
