@@ -10,6 +10,6 @@ require('comfy-line-numbers').setup({
   down_key = 'j',
 
   -- Line numbers will be completely hidden for the following file/buffer types
-  hidden_file_types = { 'undotree' },
-  hidden_buffer_types = { 'terminal', 'nofile' }
+  hidden_file_types = { 'undotree', },
+  hidden_buffer_types = { 'terminal', 'nofile', }
 })

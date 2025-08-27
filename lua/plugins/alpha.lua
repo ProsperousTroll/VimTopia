@@ -55,8 +55,18 @@ dashboard.section.buttons.val = {
 
 alpha.setup(dashboard.opts)
 
--- disable folding on alpha buffer because i want that i guess
---vim.cmd([[
---    autocmd FileType alpha setlocal nofoldenable
---]])
 
+
+-- disable folding on alpha buffer because i want that i guess
+-- I read what this did in the alpha repo and got mad because it sounded pretentious...
+-- but it turns out i absolutely want to disable folding on alpha. LOL.
+vim.cmd([[
+    autocmd FileType alpha setlocal nofoldenable
+]])
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "alpha",
+  callback = function()
+    vim.wo.statuscolumn = "" -- Disables cozy numbers from showing up in the dashboard
+  end,
+})
