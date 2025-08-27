@@ -1,15 +1,10 @@
-# This is your rocks.nvim plugins declaration file.
-# Here is a small yet pretty detailed example on how to use it:
-#
 # [plugins]
 # nvim-treesitter = "semver_version"  # e.g. "1.0.0"
 
-# List of non-Neovim rocks.
-# This includes things like `toml` or other lua packages.
+# List of non-Neovim rocks.(IF I HAD ANY)
 [rocks]
 
 # List of Neovim plugins to install alongside their versions.
-# If the plugin name contains a dot then you must add quotes to the key name!
 [plugins]
 "rocks.nvim" = "2.45.2" # rocks.nvim can also manage itself :D
 "rocks-git.nvim" = "2.5.5"
@@ -20,12 +15,13 @@ tree-sitter-rust = "0.0.50"
 "which-key.nvim" = "3.17.0"
 nvim-web-devicons = "0.100"
 tree-sitter = { git = "jacobdot/nvim-treesitter.nvim" }
-"snacks.nvim" = { git = "folke/snacks.nvim" }
 "nvim-colorizer.lua" = { git = "norcalli/nvim-colorizer.lua" }
 coq = { git = "ms-jpq/coq_nvim" }
 alpha = { git = "goolord/alpha-nvim" }
 toggleterm = { git = "akinsho/toggleterm.nvim" }
 noice = { git = "folke/noice.nvim" }
+cozy-line-numbers = { git = "mluders/comfy-line-numbers.nvim" }
+"snacks.nvim" = { git = "folke/snacks.nvim" }
 "mini.nvim" = { git = "echasnovski/mini.nvim" }
 
 # Plugins I no longer use but keeping in here bc I'm a hoarder 

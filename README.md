@@ -12,6 +12,7 @@
 - lspconfig
 - tree-sitter
 - which-key
+- cozy-line-numbers
 - coq
 - web-devicons
 - alpha
