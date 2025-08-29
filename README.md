@@ -9,7 +9,6 @@
 
 - rocks.nvim (+ git)
 - neorg
-- lspconfig
 - tree-sitter
 - which-key
 - cozy-line-numbers
@@ -72,8 +71,11 @@ You can select either by opening `lua/plugins/mini.lua` and replacing the option
 ### VimTopia's special keybinds:
 
 - `<C-h|j|k|l>` : Change focused window
-- `<C-n>` : Open file manager
-- `<A-h>` : Toggle terminal window
+- `<Space>` : Leader key
+- `<leader>e` : Open file manager
+- `<leader>t` : Toggle terminal window
+- `<leader>q` : Close buffer
+- `<leader>n` : New buffer
 - `s` : ![mini.surround](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-surround.md), usefull asf 
 
 ## -=@ THANKS! @=-

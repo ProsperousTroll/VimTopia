@@ -9,7 +9,6 @@
 "rocks.nvim" = "2.45.2" # rocks.nvim can also manage itself :D
 "rocks-git.nvim" = "2.5.5"
 neorg = "9.3.0"
-nvim-lspconfig = "2.4.0"
 tree-sitter-cpp = "0.0.45"
 tree-sitter-rust = "0.0.50"
 "which-key.nvim" = "3.17.0"

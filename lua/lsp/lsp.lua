@@ -10,23 +10,32 @@ coq{
    },
 }
 
-require("lspconfig").coq_lsp.setup{}
 
-require("lspconfig").clangd.setup({
-   capabilities = coq.lsp_ensure_capabilities()
-})
-vim.lsp.enable("clangd")
+-- it shouldn't've taken me a week to figure this out.
 
+-- add whatever server you want to this table.
+servers = {
+   'clangd',
+   'rust-analyzer',
+}
 
---[[
-lspconfig.clangd.setup({
-   capabilities = coq.lsp_ensure_capabilities()
-})
-
-lspconfig.marksman.setup({
-   capabilities = coq.lsp_ensure_capabilities()
-})
-]]
+for k, v in pairs(servers) do
+   vim.lsp.config(v, coq.lsp_ensure_capabilities())
+   vim.lsp.enable(v)
+end
 
 
--- don't ask me why this is in a different folder. I don't know. Sorry. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

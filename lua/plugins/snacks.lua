@@ -1,4 +1,3 @@
--- TODO // Configure snacks
 snacks = require("snacks")
 
 
@@ -13,6 +12,6 @@ snacks.setup({
    },
    scroll = {
       enabled = true,
-   }
+   },
 })
 
