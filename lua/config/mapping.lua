@@ -4,18 +4,14 @@ vim.g.mapleader = " "
 
 -- GET FUCKED NEOVIM TUTORIAL BUTTON RIGHT NEXT TO ESCAPE THAT I HIT CONSTANTLY I FUCKING HATE YOU 
 vim.keymap.set('n', '<F1>', '<Nop>')
+vim.keymap.set('i', '<F1>', '<Nop>')
 
 -- File manager
 vim.keymap.set('n', '<leader>e', function()
-   require("snacks").explorer({
-      layout = {
-         layout = {
-            width = 0.25,
-         },
-      },
-   })
-end, { desc = "Toggle File Explorer" })
+   MiniFiles.open()  
+end, { desc = "Mini Files" })
 
+-- toggleterm
 require("toggleterm").setup{
   size = 20,
   open_mapping = [[<leader>t]], -- Toggles a terminal window

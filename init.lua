@@ -12,16 +12,16 @@
 
 ]]
 
--- using "Neorocks" Package manager. Install automatically if not already;
+-- using "Neorocks" Package manager.
 require("config.install_rocks")
 require("config.rocks")
 require("config.options")
 require("config.mapping")
+require("lsp.lspconfig")
 
 require("plugins.neorg")
-require("lsp.lsp")
+require('plugins.diagflow')
 require("plugins.mini")
-require("plugins.snacks")
 require("plugins.which_key")
 require("plugins.alpha")
 require("plugins.noice")

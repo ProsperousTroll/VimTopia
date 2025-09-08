@@ -15,20 +15,11 @@ tree-sitter-rust = "0.0.50"
 nvim-web-devicons = "0.100"
 tree-sitter = { git = "jacobdot/nvim-treesitter.nvim" }
 "nvim-colorizer.lua" = { git = "norcalli/nvim-colorizer.lua" }
-coq = { git = "ms-jpq/coq_nvim" }
+lspconfig = { git = "neovim/nvim-lspconfig" }
 alpha = { git = "goolord/alpha-nvim" }
 toggleterm = { git = "akinsho/toggleterm.nvim" }
 noice = { git = "folke/noice.nvim" }
 cozy-line-numbers = { git = "mluders/comfy-line-numbers.nvim" }
+"diagflow.nvim" = { git = "dgagn/diagflow.nvim" }
 "snacks.nvim" = { git = "folke/snacks.nvim" }
 "mini.nvim" = { git = "echasnovski/mini.nvim" }
-
-# Plugins I no longer use but keeping in here bc I'm a hoarder 
-# Most of them are still worth checking out if you're being nosy in here anyways...
-
-# base16-nvim = "scm"
-# nvim-autopairs = "scm"
-# "lualine.nvim" = "scm"
-# barbar = { git = "romgrk/barbar.nvim" }
-# chadtree=  { git = "ms-jpq/chadtree" }
-# "yazi.nvim" = { git = "mikavilpas/yazi.nvim" }
