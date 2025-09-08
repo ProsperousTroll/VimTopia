@@ -5,20 +5,21 @@
 ### This is my personal Neovim config, built from scratch with ![rocks.nvim](https://github.com/nvim-neorocks/rocks.nvim).
 <sub> I am constantly changing and tweaking things about this config... clone at own risk! </sub>
 
-## -=@ PLUGINS @=-
+## -=@ PLUGINS (Managed with Neorocks) @=-
 
 - rocks.nvim (+ git)
+- alpha
+- colorizer
+- cozy-line-numbers
+- diagflow
+- lspconfig
+- mini
 - neorg
+- noice
+- toggleterm
 - tree-sitter
 - which-key
-- cozy-line-numbers
-- coq
 - web-devicons
-- alpha
-- toggleterm
-- noice
-- snacks
-- mini
 
 ## -=@ INSTALLING @=- 
 ### DEPENDANCIES: 
