@@ -9,4 +9,5 @@ pack.add({
    { src = "https://github.com/folke/which-key.nvim"},
    { src = "https://github.com/mluders/comfy-line-numbers.nvim"},
    { src = "https://github.com/norcalli/nvim-colorizer.lua"},
+   { src = "https://github.com/dgagn/diagflow.nvim"},
 })
