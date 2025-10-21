@@ -2,7 +2,7 @@
 require("config.zachthemes")
 require("mini.base16").setup({
    -- OPTIONS: Eris, NewGruvCity
-   palette = NewGruvCity,
+   palette = Eris,
    use_cterm = true,
 })
 
@@ -10,6 +10,7 @@ require("mini.base16").setup({
 require("mini.pairs").setup()
 require("mini.statusline").setup()
 require("mini.tabline").setup()
+require("mini.pick").setup()
 require("mini.completion").setup()
 require("mini.snippets").setup()
 require("mini.surround").setup()

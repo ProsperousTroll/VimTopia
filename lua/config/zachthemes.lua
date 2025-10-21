@@ -23,7 +23,7 @@ NewGruvCity = {
 -- Eris. The dopest base16 theme ever made by a guy named Ed.
 Eris = {
    base00 = "#0A0920",
-   base01 = "#13133A", 
+   base01 = "#13133A",
    base02 = "#23255A",
    base03 = "#333773",
    base04 = "#4A5293",

@@ -5,6 +5,7 @@ local servers = {
    'lua_ls',
    'clangd',
    'pyright',
+   'zls',
 }
 
 -- apply with lspconfig because the built-in lsp bullshit is annoying

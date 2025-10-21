@@ -1,18 +1,19 @@
-vim.opt.clipboard = "unnamedplus"
-vim.opt.number = true
-vim.opt.showmatch = true
-vim.opt.smartcase = true
-vim.opt.smartindent = true
-vim.opt.relativenumber = true
-vim.opt.undofile = true
-vim.opt.expandtab = true
-vim.opt.showtabline = 2
-vim.opt.shiftwidth = 3
-vim.opt.tabstop = 2
-vim.opt.guifont = "RobotoMono:h16"
-vim.opt.termguicolors = true
-vim.opt.scrolloff = 8
-vim.opt.sidescrolloff = 8
+vim.o.clipboard = "unnamedplus"
+vim.o.number = true
+vim.o.showmatch = true
+vim.o.smartcase = true
+vim.o.smartindent = true
+vim.o.relativenumber = true
+vim.o.undofile = true
+vim.o.expandtab = true
+vim.o.showtabline = 2
+vim.o.shiftwidth = 3
+vim.o.tabstop = 2
+vim.o.guifont = "Roboto Mono"
+vim.o.termguicolors = true
+vim.o.scrolloff = 8
+vim.o.sidescrolloff = 8
+vim.o.wrap = false
 
 -- set background transparent
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })

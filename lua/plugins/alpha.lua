@@ -33,16 +33,6 @@ local ASCII = {
 
 }
 
-
--- set VimTopia icon
---dashboard.section.header.val = {
---   " ▌ ▐·▪  • ▌ ▄ ·. ▄▄▄▄▄       ▄▄▄·▪   ▄▄▄· ",
---   "▪█·█▌██ ·██ ▐███▪•██  ▪     ▐█ ▄███ ▐█ ▀█ ",
---   "▐█▐█•▐█·▐█ ▌▐▌▐█· ▐█.▪ ▄█▀▄  ██▀·▐█·▄█▀▀█ ",
---   " ███ ▐█▌██ ██▌▐█▌ ▐█▌·▐█▌.▐▌▐█▪·•▐█▌▐█ ▪▐▌",
---   ". ▀  ▀▀▀▀▀  █▪▀▀▀ ▀▀▀  ▀█▄▀▪.▀   ▀▀▀ ▀  ▀ "
---}
-
 dashboard.section.header.val = ASCII
 dashboard.section.footer.val = "A Neovim distro by Zach D."
 

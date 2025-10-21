@@ -1,23 +1,22 @@
 -- Yeah
 vim.g.mapleader = " "
--- vim.keymap.del('i', '<Space>t')
 
 -- GET FUCKED NEOVIM TUTORIAL BUTTON RIGHT NEXT TO ESCAPE THAT I HIT CONSTANTLY I FUCKING HATE YOU 
-vim.keymap.set('n', '<F1>', '<Nop>')
-vim.keymap.set('i', '<F1>', '<Nop>')
+vim.keymap.set({ 'n', 'i', }, '<F1>', '<Nop>')
 
 -- File manager
 vim.keymap.set('n', '<leader>e', function()
-   MiniFiles.open()  
-end, { desc = "Mini Files" })
+   MiniFiles.open()
+end, { desc = "File explorer" })
 
 -- toggleterm
+vim.keymap.set('t', '<Esc>', [[<C-\><C-N>]])
 require("toggleterm").setup{
-  size = 20,
+  size = 15,
   open_mapping = [[<leader>t]], -- Toggles a terminal window
   direction = 'horizontal', -- Makes it horizontal (could also be 'vertical', 'float', or 'tab')
-  insert_mappings = false, -- This should've been on by default burh. Disable keybind in insert mode.
-  d
+  insert_mappings = false, -- Disable keybind in insert mode.
+  terminal_mappings = false,
 }
 
 -- Important misc stuff
@@ -31,7 +30,8 @@ vim.keymap.set('n', '<A-k>', ':bp<CR>', { noremap = true, silent = true, desc = 
 vim.keymap.set('n', '<A-q>', ':bd<CR>', { noremap = true, silent = true, desc = 'Close buffer' })
 vim.keymap.set('n', '<A-b>', ':enew<CR>', { noremap = true, silent = true, desc = 'New buffer' })
 
--- leader maps for buffer stuff too just cuz i want to choose...
-vim.keymap.set('n', '<leader>q', ':bd<CR>', { noremap = true, silent = true, desc = 'Close buffer' })
+-- leader maps
+vim.keymap.set('n', '<leader>f', ':Pick files<CR>', { noremap = true, silent = true, desc = 'Find files' })
+vim.keymap.set('n', '<leader>h', ':Pick help<CR>', { noremap = true, silent = true, desc = 'Find help' })
+vim.keymap.set('n', '<leader>q', ':bd!<CR>', { noremap = true, silent = true, desc = 'Force close buffer' })
 vim.keymap.set('n', '<leader>n', ':enew<CR>', { noremap = true, silent = true, desc = 'New buffer' })
-

@@ -21,5 +21,4 @@ toggleterm = { git = "akinsho/toggleterm.nvim" }
 noice = { git = "folke/noice.nvim" }
 cozy-line-numbers = { git = "mluders/comfy-line-numbers.nvim" }
 "diagflow.nvim" = { git = "dgagn/diagflow.nvim" }
-"snacks.nvim" = { git = "folke/snacks.nvim" }
 "mini.nvim" = { git = "echasnovski/mini.nvim" }
